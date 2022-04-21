@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-10-05 11:57:31">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>CG ITSM/ServiceNow Team - New Joiner Assesment</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>6621a5f24f250300ba264ea18110c71d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>8b8169f24f250300ba264ea18110c764</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_rm_story_product</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="product" table="rm_story"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Product</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>product</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>rm_story</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="cmdb_model">cmdb_model</reference><reference_cascade_rule/><reference_floats>true</reference_floats><reference_key/><reference_qual>javascript:'sys_idIN'+ScrumSecurityManager.getStoryDotProduct(current).join(',')</reference_qual><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2017-10-05 09:21:30</sys_created_on><sys_id>b5dd747a4f210300ba264ea18110c76d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Product</sys_name><sys_package display_value="Agile Development" source="com.snc.sdlc.scrum.pp">4e6d7c764f210300ba264ea18110c72c</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_rm_story_product</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-10-05 11:43:49</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>advanced</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-885967298</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>038169f24f250300ba264ea18110c766</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec594ebc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table>rm_story</table>
+<target_name>Story.Product</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2a6edd32472503004736ea9600ea75d2</update_guid>
+<update_guid_history>2a6edd32472503004736ea9600ea75d2:-885967298,e66edd323725030004295f8c988bbecc:-1776598236</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>rm_story_bd358db6db6103009373793ebf9619b8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story"><rm_story action="INSERT_OR_UPDATE"><acceptance_criteria>I see different logo on the banner on the portal.&#13;
+I don't see "Get Help" icon from home page.&#13;
+I see all the menu buttons no matter if they have records or not.</acceptance_criteria><active>true</active><activity_due/><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><backlog_type>product</backlog_type><benefits>0</benefits><blocked>false</blocked><blocked_reason/><budget_cost>0</budget_cost><business_duration/><business_service/><calculation_type>automatic</calculation_type><calendar_duration/><classification>Feature</classification><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company/><contact_type/><correlation_display/><correlation_id/><cost>0</cost><critical_path>false</critical_path><defect/><delivery_plan/><delivery_task/><dependency/><description>I want to see different logo on the banner on the portal.&#13;
+I don't want to see "Get Help" icon from home page.&#13;
+I want to see all the menu buttons no matter if they have records or not.</description><due_date/><duration>1970-01-02 00:00:00</duration><effort/><end_date>2017-10-05 09:53:43</end_date><end_date_derived_from/><enhancement/><epic/><escalation>0</escalation><expected_start/><follow_up/><group_list/><html_description/><impact>3</impact><key_milestone>false</key_milestone><knowledge>false</knowledge><level/><location/><made_sla>true</made_sla><milestone>false</milestone><number>STRY0010009</number><opened_at>2017-10-05 09:53:43</opened_at><opened_by display_value="Artur Miturski">d84e56b0db2103009373793ebf961910</opened_by><order/><orig_sys_id/><orig_top_task_id/><parent/><parent_feature/><percent_complete>0</percent_complete><phase_type>waterfall</phase_type><priority>4</priority><product display_value="ServiceNow ServiceNow Jakarta">796db0f2db6103009373793ebf9619db</product><product_rel_index>300000</product_rel_index><project/><project_index/><project_phase/><reassignment_count>0</reassignment_count><rejection_goto/><relation_applied/><release/><release_index/><remaining_duration/><remaining_effort/><resource_allocated_cost>0</resource_allocated_cost><resource_planned_cost>0</resource_planned_cost><rollup>false</rollup><schedule_end_date>2017-10-05 09:53:43</schedule_end_date><schedule_start_date>2017-10-05 09:53:43</schedule_start_date><shadow>false</shadow><short_description>Service Portal Development</short_description><skills/><sla_due/><sprint/><sprint_index/><start_date>2017-10-05 09:53:43</start_date><start_date_derived_from/><state>-6</state><status>green</status><story_points/><sub_tree_root/><sys_class_name>rm_story</sys_class_name><sys_created_by>amitursk</sys_created_by><sys_created_on>2017-10-05 09:54:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd358db6db6103009373793ebf9619b8</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>amitursk</sys_updated_by><sys_updated_on>2017-10-05 11:07:32</sys_updated_on><task>Service Portal Development​STRY0010009</task><team/><team_index/><theme/><time_card_at_top_task>false</time_card_at_top_task><time_constraint>asap</time_constraint><time_worked/><top_portfolio/><top_program/><top_task display_value="STRY0010009">bd358db6db6103009373793ebf9619b8</top_task><type>Development</type><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>3</urgency><user_input/><variables/><version/><watch_list/><wbs/><wbs_order/><wf_activity/><work_cost>0</work_cost><work_duration/><work_effort/><work_end/><work_notes/><work_notes_list/><work_start/></rm_story></record_update>]]></payload>
+<payload_hash>96983568</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>078169f24f250300ba264ea18110c765</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec47c1e00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table/>
+<target_name>Service Portal Development</target_name>
+<type>Story</type>
+<update_domain>global</update_domain>
+<update_guid>b90a19722aa1030088ca69c8b845047e</update_guid>
+<update_guid_history>b90a19722aa1030088ca69c8b845047e:96983568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>rm_story_a4c4cdb6db6103009373793ebf961991</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story"><rm_story action="INSERT_OR_UPDATE"><acceptance_criteria>Creating new user profile with ITIL role&#13;
+Creating new support group usser for incident management and relate new account to support group (feel free to choose one from the list)&#13;
+For all of new user please make sure that new accout are able to use emails to communication with serviceNow</acceptance_criteria><active>true</active><activity_due/><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><backlog_type>product</backlog_type><benefits>0</benefits><blocked>false</blocked><blocked_reason/><budget_cost>0</budget_cost><business_duration/><business_service/><calculation_type>automatic</calculation_type><calendar_duration/><classification>Feature</classification><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company/><contact_type/><correlation_display/><correlation_id/><cost>0</cost><critical_path>false</critical_path><defect/><delivery_plan/><delivery_task/><dependency/><description>Creating new user profile with ITIL role&#13;
+Creating new support group usser for incident management and relate new account to support group (feel free to choose one from the list)&#13;
+For all of new user please make sure that new accout are able to use emails to communication with serviceNow</description><due_date/><duration>1970-01-02 00:00:00</duration><effort/><end_date>2017-10-05 09:51:43</end_date><end_date_derived_from/><enhancement/><epic/><escalation>0</escalation><expected_start/><follow_up/><group_list/><html_description/><impact>3</impact><key_milestone>false</key_milestone><knowledge>false</knowledge><level/><location/><made_sla>true</made_sla><milestone>false</milestone><number>STRY0010008</number><opened_at>2017-10-05 09:51:43</opened_at><opened_by display_value="Artur Miturski">d84e56b0db2103009373793ebf961910</opened_by><order/><orig_sys_id/><orig_top_task_id/><parent/><parent_feature/><percent_complete>0</percent_complete><phase_type>waterfall</phase_type><priority>4</priority><product display_value="ServiceNow ServiceNow Jakarta">796db0f2db6103009373793ebf9619db</product><product_rel_index>200000</product_rel_index><project/><project_index/><project_phase/><reassignment_count>0</reassignment_count><rejection_goto/><relation_applied/><release/><release_index/><remaining_duration/><remaining_effort/><resource_allocated_cost>0</resource_allocated_cost><resource_planned_cost>0</resource_planned_cost><rollup>false</rollup><schedule_end_date>2017-10-05 09:51:43</schedule_end_date><schedule_start_date>2017-10-05 09:51:43</schedule_start_date><shadow>false</shadow><short_description>Preparation / Prerequisites</short_description><skills/><sla_due/><sprint/><sprint_index/><start_date>2017-10-05 09:51:43</start_date><start_date_derived_from/><state>-6</state><status>green</status><story_points/><sub_tree_root/><sys_class_name>rm_story</sys_class_name><sys_created_by>amitursk</sys_created_by><sys_created_on>2017-10-05 09:52:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a4c4cdb6db6103009373793ebf961991</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>amitursk</sys_updated_by><sys_updated_on>2017-10-05 10:29:14</sys_updated_on><task>Preparation / Prerequisites​STRY0010008</task><team/><team_index/><theme/><time_card_at_top_task>false</time_card_at_top_task><time_constraint>asap</time_constraint><time_worked/><top_portfolio/><top_program/><top_task display_value="STRY0010008">a4c4cdb6db6103009373793ebf961991</top_task><type>Development</type><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>3</urgency><user_input/><variables/><version/><watch_list/><wbs/><wbs_order/><wf_activity/><work_cost>0</work_cost><work_duration/><work_effort/><work_end/><work_notes/><work_notes_list/><work_start/></rm_story></record_update>]]></payload>
+<payload_hash>1685843786</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>438169f24f250300ba264ea18110c765</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec472bdf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table/>
+<target_name>Preparation / Prerequisites</target_name>
+<type>Story</type>
+<update_domain>global</update_domain>
+<update_guid>90e9197217a1030066fb144724542178</update_guid>
+<update_guid_history>90e9197217a1030066fb144724542178:1685843786</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_override_2deb3620ef411000a7450fa3f82256f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>assigned_to</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>rm_story</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2011-09-08 16:11:18</sys_created_on><sys_id>2deb3620ef411000a7450fa3f82256f6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="Agile Development" source="com.snc.sdlc.scrum.pp">4e6d7c764f210300ba264ea18110c72c</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_override_2deb3620ef411000a7450fa3f82256f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-10-05 11:43:02</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+<payload_hash>1102848504</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>4f8169f24f250300ba264ea18110c765</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec5895e30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table>rm_story</table>
+<target_name>assigned_to</target_name>
+<type>Dictionary Entry Override</type>
+<update_domain>global</update_domain>
+<update_guid>0f3e1d328c2503008218e81439a20197</update_guid>
+<update_guid_history>0f3e1d328c2503008218e81439a20197:1102848504,4b3e55fe8de103005145ce41b739031e:1923145457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_1b2f95724f250300ba264ea18110c72d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;name&gt;Revoke access&lt;/name&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2017-10-06 21:59:59&lt;/run_start&gt;&lt;run_time&gt;1969-12-31 23:00:00&lt;/run_time&gt;&lt;run_type&gt;once&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[var gr = new GlideRecord('sys_user');
+gr.get('419c517e4fe10300ba264ea18110c7b6');
+gr.setValue('locked_out', true);
+gr.update();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-10-05 11:48:51&lt;/sys_created_on&gt;&lt;sys_id&gt;1b2f95724f250300ba264ea18110c72d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Revoke access&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_1b2f95724f250300ba264ea18110c72d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-10-05 11:48:51&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>252359675</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>8b8169f24f250300ba264ea18110c765</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec655c430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table/>
+<target_name>Revoke access</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>9b61a9f241250300133c03984dbbc91c</update_guid>
+<update_guid_history>9b61a9f241250300133c03984dbbc91c:252359675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>rm_story_517505b6db6103009373793ebf9619f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story"><rm_story action="INSERT_OR_UPDATE"><acceptance_criteria>Price of Apple Ipad 3 is dependent on memory amount&#13;
+Not all colors are available for all memory choices.&#13;
+I have ability to chose from different colors and memory amounts.</acceptance_criteria><active>true</active><activity_due/><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><backlog_type>product</backlog_type><benefits>0</benefits><blocked>false</blocked><blocked_reason/><budget_cost>0</budget_cost><business_duration/><business_service/><calculation_type>automatic</calculation_type><calendar_duration/><classification>Feature</classification><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company/><contact_type/><correlation_display/><correlation_id/><cost>0</cost><critical_path>false</critical_path><defect/><delivery_plan/><delivery_task/><dependency/><description>For Catalog Item: Apple Ipad 3&#13;
+I want to be able to chose different color and different memory amount.&#13;
+Price of Apple Ipad 3 is dependent on memory amount&#13;
+Not all colors are available for all memory choices.</description><due_date/><duration>1970-01-02 00:00:00</duration><effort/><end_date>2017-10-05 09:54:47</end_date><end_date_derived_from/><enhancement/><epic/><escalation>0</escalation><expected_start/><follow_up/><group_list/><html_description/><impact>3</impact><key_milestone>false</key_milestone><knowledge>false</knowledge><level/><location/><made_sla>true</made_sla><milestone>false</milestone><number>STRY0010010</number><opened_at>2017-10-05 09:54:47</opened_at><opened_by display_value="Artur Miturski">d84e56b0db2103009373793ebf961910</opened_by><order/><orig_sys_id/><orig_top_task_id/><parent/><parent_feature/><percent_complete>0</percent_complete><phase_type>waterfall</phase_type><priority>4</priority><product display_value="ServiceNow ServiceNow Jakarta">796db0f2db6103009373793ebf9619db</product><product_rel_index>400000</product_rel_index><project/><project_index/><project_phase/><reassignment_count>0</reassignment_count><rejection_goto/><relation_applied/><release/><release_index/><remaining_duration/><remaining_effort/><resource_allocated_cost>0</resource_allocated_cost><resource_planned_cost>0</resource_planned_cost><rollup>false</rollup><schedule_end_date>2017-10-05 09:54:47</schedule_end_date><schedule_start_date>2017-10-05 09:54:47</schedule_start_date><shadow>false</shadow><short_description>Catalog Item</short_description><skills/><sla_due/><sprint/><sprint_index/><start_date>2017-10-05 09:54:47</start_date><start_date_derived_from/><state>-6</state><status>green</status><story_points/><sub_tree_root/><sys_class_name>rm_story</sys_class_name><sys_created_by>amitursk</sys_created_by><sys_created_on>2017-10-05 09:55:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>517505b6db6103009373793ebf9619f9</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>amitursk</sys_updated_by><sys_updated_on>2017-10-05 11:10:15</sys_updated_on><task>Catalog Item​STRY0010010</task><team/><team_index/><theme/><time_card_at_top_task>false</time_card_at_top_task><time_constraint>asap</time_constraint><time_worked/><top_portfolio/><top_program/><top_task display_value="STRY0010010">517505b6db6103009373793ebf9619f9</top_task><type>Development</type><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>3</urgency><user_input/><variables/><version/><watch_list/><wbs/><wbs_order/><wf_activity/><work_cost>0</work_cost><work_duration/><work_effort/><work_end/><work_notes/><work_notes_list/><work_start/></rm_story></record_update>]]></payload>
+<payload_hash>689463380</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>8f8169f24f250300ba264ea18110c764</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec486c750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table/>
+<target_name>Catalog Item</target_name>
+<type>Story</type>
+<update_domain>global</update_domain>
+<update_guid>5c3a997286a103008e7e8b574562cad9</update_guid>
+<update_guid_history>5c3a997286a103008e7e8b574562cad9:689463380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_131e99ed49e8950002ad45cc9609026f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;
+&lt;action_name&gt;add_update_set&lt;/action_name&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;client&gt;false&lt;/client&gt;
+&lt;comments&gt;Use this UI Action to force any record (and it's attachments) into the current update set.&lt;/comments&gt;
+&lt;condition&gt;gs.hasRole('admin')&lt;/condition&gt;
+&lt;form_action&gt;true&lt;/form_action&gt;
+&lt;form_button&gt;false&lt;/form_button&gt;
+&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;
+&lt;form_link&gt;true&lt;/form_link&gt;
+&lt;form_style/&gt;
+&lt;hint/&gt;
+&lt;list_action&gt;true&lt;/list_action&gt;
+&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;
+&lt;list_button&gt;false&lt;/list_button&gt;
+&lt;list_choice&gt;true&lt;/list_choice&gt;
+&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;
+&lt;list_link&gt;false&lt;/list_link&gt;
+&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;
+&lt;list_style/&gt;
+&lt;name&gt;Add to Update Set&lt;/name&gt;
+&lt;onclick/&gt;
+&lt;order&gt;100&lt;/order&gt;
+&lt;script&gt;&lt;![CDATA[addToUpdateSet();
+
+function addToUpdateSet(){
+	//Get current URL for return
+	var url = GlideSession.get().getStack().bottom();
+	
+	//Save current record
+	current.update();
+	
+	//Initialize updateManager
+	var updateManager = new GlideUpdateManager2();
+	
+	//Add record to update set
+	updateManager.saveRecord(current);
+	
+	//If the current record is an attachment, add the chunks
+	//(Attachments and chunks for other record types are auto-added)
+	if (current.getTableName() == 'sys_attachment')
+		addAttachmentChunks(current);
+
+	//If attachments are not detected, check the sys_attachment table anyway
+	//(Known attachments are auto-added, missing unknown attachments)
+	//(sys_user seems to be an exception)
+	else if (!current.hasAttachments() &amp;&amp; current.getTableName() != 'sys_user')
+		addAttachments(current);
+	
+	//Display confirmation
+	var currentSet = new GlideRecord('sys_update_set');
+	currentSet.get(gs.getPreference('sys_update_set'));
+	gs.flushMessages(); //Flush to avoid multiples when list updating
+	gs.addInfoMessage('Record(s) added to update set ' + currentSet.name + '.');
+	action.setRedirectURL(url);
+}
+
+//Add attachments to the update set
+function addAttachments(record){
+	var updateManager = new GlideUpdateManager2();
+	var attach = new GlideRecord("sys_attachment");
+	attach.addQuery("table_sys_id", record.sys_id.toString());
+	attach.query();
+	while (attach.next()) {
+		//Process main sys_attachment record
+		updateManager.saveRecord(attach);
+		
+		//Process sys_attachment_doc chunks
+		addAttachmentChunks(attach);
+	}
+}
+
+//Add attachment chunks to the update set
+function addAttachmentChunks(attachment){
+	var updateManager = new GlideUpdateManager2();
+	var attach_doc = new GlideRecord("sys_attachment_doc");
+	attach_doc.addQuery("sys_attachment", attachment.sys_id.toString());
+	attach_doc.orderBy("position");
+	attach_doc.query();
+	while (attach_doc.next())
+		updateManager.saveRecord(attach_doc);
+}]]&gt;&lt;/script&gt;
+&lt;show_insert&gt;true&lt;/show_insert&gt;
+&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;
+&lt;show_query&gt;false&lt;/show_query&gt;
+&lt;show_update&gt;true&lt;/show_update&gt;
+&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;ben.hollifield_SHARE_SHARE&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2013-10-21 00:09:52&lt;/sys_created_on&gt;
+&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+&lt;sys_domain&gt;global&lt;/sys_domain&gt;
+&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+&lt;sys_id&gt;131e99ed49e8950002ad45cc9609026f&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;Add to Update Set&lt;/sys_name&gt;
+&lt;sys_overrides display_value=""/&gt;
+&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_ui_action_131e99ed49e8950002ad45cc9609026f&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;ben.hollifield@snc_SHARE&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2016-07-12 17:03:01&lt;/sys_updated_on&gt;
+&lt;table&gt;global&lt;/table&gt;
+&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;
+&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;
+&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1648381917</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>c38169f24f250300ba264ea18110c766</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec45ac4b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table>global</table>
+<target_name>Add to Update Set</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>d48999fa01610300ac53d9810ad94780</update_guid>
+<update_guid_history>d48999fa01610300ac53d9810ad94780:1648381917</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>rm_story_c50d7cb2db6103009373793ebf96190d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story"><rm_story action="INSERT_OR_UPDATE"><acceptance_criteria>I want to see additional field:&#13;
+	Manager - auto filled from callers manger, RW for itil admin, RO for others&#13;
+	Manager is RW caller if not auto filled</acceptance_criteria><active>true</active><activity_due/><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><backlog_type>product</backlog_type><benefits>0</benefits><blocked>false</blocked><blocked_reason/><budget_cost>0</budget_cost><business_duration/><business_service/><calculation_type>automatic</calculation_type><calendar_duration/><classification>Feature</classification><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company/><contact_type/><correlation_display/><correlation_id/><cost>0</cost><critical_path>false</critical_path><defect/><delivery_plan/><delivery_task/><dependency/><description>For the Incident form I want new field called "Manager" displaying Caller's Manager.&#13;
+As an itil_admin I want to have Read and Write rights to new field.&#13;
+As  a caller I want to have Read and Write rights only if my Manager field is empty.&#13;
+As anybody else I want to have only Read rights.</description><due_date/><duration>1970-01-03 00:00:00</duration><effort/><end_date>2017-10-05 09:17:54</end_date><end_date_derived_from/><enhancement/><epic/><escalation>0</escalation><expected_start/><follow_up/><group_list/><html_description/><impact>3</impact><key_milestone>false</key_milestone><knowledge>false</knowledge><level/><location/><made_sla>true</made_sla><milestone>false</milestone><number>STRY0010003</number><opened_at>2017-10-05 09:17:54</opened_at><opened_by display_value="Artur Miturski">d84e56b0db2103009373793ebf961910</opened_by><order/><orig_sys_id/><orig_top_task_id/><parent/><parent_feature/><percent_complete>0</percent_complete><phase_type>waterfall</phase_type><priority>4</priority><product display_value="ServiceNow ServiceNow Jakarta">796db0f2db6103009373793ebf9619db</product><product_rel_index>100000</product_rel_index><project/><project_index/><project_phase/><reassignment_count>0</reassignment_count><rejection_goto/><relation_applied/><release/><release_index/><remaining_duration/><remaining_effort/><resource_allocated_cost>0</resource_allocated_cost><resource_planned_cost>0</resource_planned_cost><rollup>false</rollup><schedule_end_date>2017-10-05 09:17:54</schedule_end_date><schedule_start_date>2017-10-05 09:17:54</schedule_start_date><shadow>false</shadow><short_description>Incident - Configuration of Incident</short_description><skills/><sla_due/><sprint/><sprint_index/><start_date>2017-10-05 09:17:54</start_date><start_date_derived_from/><state>1</state><status>green</status><story_points>2</story_points><sub_tree_root/><sys_class_name>rm_story</sys_class_name><sys_created_by>amitursk</sys_created_by><sys_created_on>2017-10-05 09:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c50d7cb2db6103009373793ebf96190d</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>amitursk</sys_updated_by><sys_updated_on>2017-10-05 09:47:53</sys_updated_on><task>Incident - Configuration of Incident​STRY0010003</task><team/><team_index/><theme/><time_card_at_top_task>false</time_card_at_top_task><time_constraint>asap</time_constraint><time_worked/><top_portfolio/><top_program/><top_task display_value="STRY0010003">c50d7cb2db6103009373793ebf96190d</top_task><type>Development</type><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>3</urgency><user_input/><variables/><version/><watch_list/><wbs/><wbs_order/><wf_activity/><work_cost>0</work_cost><work_duration/><work_effort/><work_end/><work_notes/><work_notes_list/><work_start/></rm_story></record_update>]]></payload>
+<payload_hash>2142006322</payload_hash>
+<remote_update_set display_value="CG ITSM/ServiceNow Team - New Joiner Assesment">8b8169f24f250300ba264ea18110c764</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-10-05 11:57:30</sys_created_on>
+<sys_id>c78169f24f250300ba264ea18110c765</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15eec4825d20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-10-05 11:57:30</sys_updated_on>
+<table/>
+<target_name>Incident - Configuration of Incident</target_name>
+<type>Story</type>
+<update_domain>global</update_domain>
+<update_guid>082a1972e0a103005e2141727ee7dd81</update_guid>
+<update_guid_history>082a1972e0a103005e2141727ee7dd81:2142006322</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
